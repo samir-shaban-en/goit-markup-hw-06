@@ -37,7 +37,8 @@
   color: #434455;
   letter-spacing: 0.02em;
 }
-.link:focus .link:active,
+.link:active,
+.link:focus,
 .link:hover,
 .link-contacts:hover,
 .link-contacts:focus {
@@ -72,12 +73,14 @@
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.02em;
+  line-height: 1.11111;
 }
 .subtitle {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 0.02em;
+  line-height: 1.2;
 }
 .our-team {
   background-color: #f4f4fd;
@@ -100,6 +103,14 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+.text {
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  font-size: 16px;
+}
+.card {
+  background-color: #fff;
 }
 /* font-family: "Raleway", serif;
 font-family: "Roboto", serif; */
