@@ -26,6 +26,7 @@
   text-decoration: none;
   color: #2e2f42;
   font-style: normal;
+  letter-spacing: 0.02em;
 }
 .contacts {
   font-style: normal;
@@ -38,7 +39,7 @@
 }
 .link:active,
 .link:hover,
-.contacts .link:hover {
+.link-contacts:hover {
   color: #404bbf;
 }
 .hero {
