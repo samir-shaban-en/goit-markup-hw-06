@@ -37,9 +37,10 @@
   color: #434455;
   letter-spacing: 0.02em;
 }
-.link:active,
+.link:focus .link:active,
 .link:hover,
-.link-contacts:hover {
+.link-contacts:hover,
+.link-contacts:focus {
   color: #404bbf;
 }
 .hero {
