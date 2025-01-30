@@ -74,7 +74,9 @@
   font-size: 36px;
   letter-spacing: 0.02em;
   line-height: 1.11111;
+  text-transform: capitalize;
 }
+
 .subtitle {
   color: #2e2f42;
   font-weight: 500;
@@ -92,9 +94,10 @@
   color: #4d5ae5;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  line-height: 1.16;
+  line-height: 1.16667;
   font-weight: 700;
   font-size: 18px;
+  font-family: "Raleway", sans-serif;
 }
 .text-link-span-foot {
   color: #f4f4fd;
