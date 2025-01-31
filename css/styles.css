@@ -98,6 +98,7 @@
   font-weight: 700;
   font-size: 18px;
   font-family: "Raleway", sans-serif;
+  text-decoration: none;
 }
 .text-link-span-foot {
   color: #f4f4fd;
@@ -107,13 +108,16 @@
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
+
 .text {
   letter-spacing: 0.02em;
   font-weight: 400;
   font-size: 16px;
 }
+
 .card {
   background-color: #fff;
 }
+
 /* font-family: "Raleway", serif;
 font-family: "Roboto", serif; */
