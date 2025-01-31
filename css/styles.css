@@ -118,6 +118,8 @@
 .card {
   background-color: #fff;
 }
-
+.list {
+  list-style: none;
+}
 /* font-family: "Raleway", serif;
 font-family: "Roboto", serif; */
