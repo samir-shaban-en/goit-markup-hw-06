@@ -212,7 +212,7 @@ button {
   gap: 24px;
 }
 .card {
-  width: calc((100% - 72px) / 4);
+  width: calc((100% - 72px) / 3);
 }
 .list-card-item {
   padding: 32px 16px;
