@@ -3,6 +3,14 @@ body {
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1 1 0;
 }
 ol,
 ul {
@@ -22,6 +30,8 @@ h6 {
 }
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 p {
   margin-top: 0;
@@ -58,8 +68,8 @@ button {
 .header-logo {
   color: #4d5ae5;
   margin-right: 76px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+
+  padding: 24px 0;
 }
 .header-logo-span {
   color: #2e2f42;
@@ -96,6 +106,7 @@ button {
   color: #434455;
   letter-spacing: 0.02em;
   display: block;
+
   padding: 24px 0;
 }
 .link {
@@ -103,7 +114,9 @@ button {
   color: #2e2f42;
   font-style: normal;
   letter-spacing: 0.02em;
+
   display: block;
+
   padding: 24px 0;
 }
 .link:focus,
