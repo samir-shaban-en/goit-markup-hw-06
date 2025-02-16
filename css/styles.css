@@ -121,9 +121,6 @@ button {
   color: #404bbf;
 }
 
-.card {
-  background-color: #fff;
-}
 /* Hero */
 .hero {
   background-color: #2e2f42;
@@ -223,12 +220,14 @@ button {
 }
 .card {
   flex-basis: calc((100% - 48px) / 4);
-  border-radius: 0 0 4px 4px;
 }
 .list-card-item {
   padding-top: 32px;
   padding-bottom: 32px;
   text-align: center;
+
+  background-color: #fff;
+  border-radius: 0 0 4px 4px;
 }
 /* Section 3 */
 .portfolio-list {
