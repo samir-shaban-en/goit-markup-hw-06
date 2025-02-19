@@ -420,5 +420,9 @@ button {
 .team-social.foot {
   gap: 16px;
 }
+.social-link.foot:hover,
+.social-link.foot:focus {
+  background-color: #31d0aa;
+}
 /* font-family: "Raleway", sans-serif;
 font-family: "Roboto", sans-serif; */
