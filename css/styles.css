@@ -316,6 +316,7 @@ button {
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
   padding: 32px 16px;
+  position: relative;
 }
 
 .overlay {
@@ -364,8 +365,8 @@ button {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
-.thumb:focus .text-overlay,
-.thumb:hover .text-overlay {
+.portfolio-card:focus .text-overlay,
+.portfolio-card:hover .text-overlay {
   transform: translate(0);
 }
 
@@ -409,13 +410,10 @@ button {
   color: #fff;
   margin-bottom: 16px;
 }
-.team-social.foot {
-  gap: 16px;
-}
-.container-footer-social {
+.container.foter {
   display: flex;
 }
-.container-footer-title {
+.title-foot {
   margin-right: 120px;
 }
 /* font-family: "Raleway", sans-serif;
