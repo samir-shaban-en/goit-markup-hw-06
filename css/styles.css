@@ -480,7 +480,6 @@ button {
 
 .form-inpt-btn {
   display: flex;
-  gap: 24px;
 }
 .input-footer {
   padding-left: 16px;
@@ -521,7 +520,7 @@ button {
   min-width: 165px;
   align-items: center;
   justify-content: center;
-  gap: 16px;
+
   padding-left: 24px;
   padding-right: 24px;
 
@@ -578,7 +577,7 @@ button {
   border-radius: 4px;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) scale(0.5);
+  transform: translate(-50%, -50%) scale(1.3);
   width: 408px;
   min-height: 584px;
 
@@ -591,6 +590,7 @@ button {
   top: 50%;
   left: 50%;
   transform: scale(1) translate(-50%, -50%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-x {
@@ -741,6 +741,7 @@ button {
   background-color: transparent;
   margin-right: 8px;
   fill: transparent;
+  cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -750,14 +751,6 @@ button {
   display: flex;
   align-items: center;
   margin-bottom: 24px;
-  position: relative;
-}
-.visually-hidden {
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  top: 0;
-  left: 0;
 }
 
 .visually-hidden:checked + label > span {
