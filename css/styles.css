@@ -802,10 +802,6 @@ button {
   }
 }
 
-.title-foot {
-  display: flex;
-  flex-direction: column;
-}
 .footer-logo {
   font-weight: 700;
   font-size: 18px;
@@ -815,6 +811,7 @@ button {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-bottom: 16px;
+  display: block;
 }
 .footer-logo-span {
   color: #f4f4fd;
@@ -827,10 +824,7 @@ button {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
-.social-foot {
-  display: flex;
-  flex-direction: column;
-}
+
 .social-footer-text {
   font-weight: 500;
   font-size: 16px;
@@ -847,11 +841,7 @@ button {
 .team-social.foot {
   gap: 16px;
 }
-.footer-form-wrap {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+
 .form-text {
   font-weight: 500;
   font-size: 16px;
@@ -892,10 +882,6 @@ button {
 .input-footer:focus {
   border-color: #31d0aa;
   opacity: 1;
-}
-
-.form-inpt-btn {
-  margin-bottom: 16px;
 }
 
 .footer-smb-btn {
@@ -952,15 +938,11 @@ button {
   .text-footer {
     max-width: 264px;
   }
-  .team-social.foot {
-    justify-content: flex-start;
-  }
+
   .social-footer-text {
     text-align: left;
   }
-  .footer-form-wrap {
-    align-items: start;
-  }
+
   .form-text {
     text-align: left;
   }
@@ -978,8 +960,6 @@ button {
   }
   .footer-smb-btn {
     margin: 0;
-  }
-  .footer-form-wrap {
   }
 }
 @media screen and (min-width: 1158px) {
