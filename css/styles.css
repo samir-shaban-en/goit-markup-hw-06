@@ -1201,7 +1201,7 @@ button {
   margin-bottom: 24px;
 }
 
-.visually-hidden:checked + label > .check {
+.visually-hidden:checked + label > .chek {
   background-color: #404bbf;
   fill: #f4f4fd;
   border: none;
