@@ -1086,14 +1086,14 @@ button {
 .check-policy {
   font-weight: 400;
   font-size: 12px;
-
+  display: flex;
+  align-items: baseline;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
 @media screen and (max-width: 767px) {
   .check-policy {
-    display: flex;
     align-items: center;
   }
 }
@@ -1169,7 +1169,7 @@ button {
   border-color: #4d5ae5;
 }
 .check-policy a {
-  line-height: 1.33333;
+  line-height: 1.33;
   text-decoration: underline;
 
   color: #4d5ae5;
