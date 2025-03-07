@@ -222,6 +222,9 @@ button {
   letter-spacing: 0.02em;
   color: #434455;
 }
+.burger-contacts-link.current {
+  color: #4d5ae5;
+}
 .team-social-menu {
   display: flex;
   gap: 40px;
