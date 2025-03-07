@@ -1032,7 +1032,7 @@ button {
   transform: translate(-50%, -50%);
 }
 
-.close-x {
+.close-x-modal {
   width: 24px;
   height: 24px;
   border-radius: 50%;
@@ -1049,18 +1049,18 @@ button {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.x {
+.x-modal {
   line-height: 0;
   fill: #2e2f42;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.close-x:hover,
-.close-x:focus {
+.close-x-modal:hover,
+.close-xmodal:focus {
   background-color: #404bbf;
-  border: none;
+  border: transparent;
 }
-.close-x:hover .x,
-.close-x:focus .x {
+.close-x-modal:hover .x-modal,
+.close-x-modal:focus .x-modal {
   fill: #fff;
 }
 
